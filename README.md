@@ -11,21 +11,25 @@
 - `openapi.yaml` - 接口描述文件
 - `.wekll-know/ai-plugin.json` - ChatGPT要求的 manifest 文件
 
+
 ## 主要功能
 
 ![window](https://github.com/zhongerxin/Crypto-News/assets/8215057/5598d15c-5637-4273-bc6b-7397a6947bd0)
 
-#### 获取加密货币列表
+### 获取加密货币列表
 
 通过 `GET /coinList` 请求，可以获取可用的加密货币列表，以此获取加密货币的 ID。遇到陌生的币种，GPT 会首先调用此接口获取加密货币的 ID
 
-#### 获取特定加密货币的价格
+
+### 获取特定加密货币的价格
 
 通过 `POST /coinPrice` 请求，并在请求体中提供 `id` 参数（加密货币的ID），可以获取该加密货币的当前价格和市场交易信息。
 
-#### 获取加密货币最新新闻
+
+### 获取加密货币最新新闻
 
 通过 `GET /coinNews` 请求，可以获取最新的加密货币新闻。
+
 
 ## 使用方法
 
@@ -56,6 +60,7 @@ node index.js
 ```
 
 现在，你应该可以在你的本地环境中访问这个插件的接口了。另外你也可以选择在 https://replit.com 中进行部署。
+
 
 ## 联系
 
