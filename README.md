@@ -60,6 +60,6 @@ node index.js
 ## 联系
 
 目前这个插件已经通过审核即将上线 ChatGPT 的 Plugin Store ，有相关合作欢迎联系我：
-\n邮箱：zhongxin123456@gmail.com
-\nTwitter: https://twitter.com/zhongerxin
-\n微信：zhongxin_490456111
+- 邮箱：zhongxin123456@gmail.com
+- Twitter: https://twitter.com/zhongerxin
+- 微信：zhongxin_490456111
