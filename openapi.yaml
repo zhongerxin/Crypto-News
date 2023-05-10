@@ -4,7 +4,7 @@ info:
   description: Plugin for get Crypto Coin's id and price / news; first use coint list to get coin's id; second use coin's id to get coin's price
   version: 1.0.0
 servers:
-  - url: 'https://crypto-news.replit.app'
+  - url: 'https://your.domain.com'
 paths:
   /coinList:
     get:
