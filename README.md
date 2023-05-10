@@ -4,6 +4,7 @@
 
 这是一个专门为 ChatGPT 开发的插件，用于获取加密货币市场的实时信息。它通过使用 Node.js 构建的后端接口，并调用 TokenInsight 的API，为用户提供加密货币的价格和交易信息。
 
+
 ## 文件结构
 
 - `index.js` - Node.js后端接口文件
@@ -11,6 +12,8 @@
 - `.wekll-know/ai-plugin.json` - ChatGPT要求的 manifest 文件
 
 ## 主要功能
+
+![window](https://github.com/zhongerxin/Crypto-News/assets/8215057/5598d15c-5637-4273-bc6b-7397a6947bd0)
 
 ### 获取加密货币列表
 
@@ -25,8 +28,6 @@
 通过 `GET /coinNews` 请求，可以获取最新的加密货币新闻。
 
 ## 使用方法
-
-**推荐**在 https://replit.com 中进行部署。
 
 首先，你需要在你的本地环境中安装 Node.js。
 
