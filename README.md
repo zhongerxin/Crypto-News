@@ -2,7 +2,7 @@
 
 [![Crypto Market News 插件介绍](http://img.youtube.com/vi/BnvGRMrm6IQ/0.jpg)](http://www.youtube.com/watch?v=BnvGRMrm6IQ "Crypto Market News for ChatGPT Plugin")
 
-这是一个专门为ChatGPT开发的插件，用于获取加密货币市场的实时信息。它通过使用Node.js构建的后端接口，并调用 TokenInsight 的API，为用户提供加密货币的价格和交易信息。
+这是一个专门为 ChatGPT 开发的插件，用于获取加密货币市场的实时信息。它通过使用 Node.js 构建的后端接口，并调用 TokenInsight 的API，为用户提供加密货币的价格和交易信息。
 
 ## 文件结构
 
@@ -14,7 +14,7 @@
 
 ### 获取加密货币列表
 
-通过 `GET /coinList` 请求，可以获取可用的加密货币列表，以此获取加密货币的 ID。
+通过 `GET /coinList` 请求，可以获取可用的加密货币列表，以此获取加密货币的 ID。遇到陌生的币种，GPT 会首先调用此接口获取加密货币的 ID
 
 ### 获取特定加密货币的价格
 
