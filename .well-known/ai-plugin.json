@@ -9,10 +9,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://crypto-news.replit.app/openapi.yaml",
+    "url": "https://your.domain.com/openapi.yaml",
     "is_user_authenticated": false
   },
-  "logo_url": "https://crypto-news.replit.app/logo.png",
-  "contact_email": "zhongxin123456@gmail.com",
-  "legal_info_url": "https://nextjstwox.vercel.app"
+  "logo_url": "https://your.domain.com/logo.png",
+  "contact_email": "your@email.com",
+  "legal_info_url": "https://your.otherdomain.com"
 }
